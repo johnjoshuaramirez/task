@@ -2,7 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 
-const BASE_URL = 'http://localhost:8080';
+const BASE_URL = 'https://task-api-qe6b.onrender.com';
 
 @Injectable({
   providedIn: 'root',
