@@ -1,3 +1,6 @@
+Live Site: https://task-rszt.onrender.com
+Task is a centralized platform for creating, assigning, and managing tasks. It helps users organize, prioritize, and track tasks, including features like deadlines, reminders, and progress tracking.
+
 ### Features
 
 - **User Registration & Authentication**  
