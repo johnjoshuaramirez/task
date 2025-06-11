@@ -77,14 +77,12 @@ export class UpdateTaskComponent implements OnInit {
   getTaskById() {
     this.service.getTaskById(this.id).subscribe((res) => {
       this.updateTaskForm.patchValue(res);
-      console.log(res);
     });
   }
 
   getUsers() {
     this.adminService.getUsers().subscribe((res) => {
       this.listOfEmployees = res;
-      console.log(res);
     });
   }
 

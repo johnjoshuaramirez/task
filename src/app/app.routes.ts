@@ -6,9 +6,13 @@ import { DashboardComponent as EmployeeDashboard } from './modules/employee/comp
 import { PostTaskComponent } from './modules/admin/components/post-task/post-task.component';
 import { UpdateTaskComponent } from './modules/admin/components/update-task/update-task.component';
 import { ViewTaskDetailsComponent as AdminTaskDetails } from './modules/admin/components/view-task-details/view-task-details.component';
-
 import { ViewTaskDetailsComponent as EmployeeTaskDetails } from './modules/employee/components/view-task-details/view-task-details.component';
+
 export const routes: Routes = [
+  {
+    path: '',
+    component: LoginComponent,
+  },
   {
     path: 'login',
     component: LoginComponent,

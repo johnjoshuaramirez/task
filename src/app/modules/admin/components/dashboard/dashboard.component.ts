@@ -58,14 +58,12 @@ export class DashboardComponent {
 
   searchTask() {
     const title = this.searchForm.get('title')!.value;
-    console.log(title);
 
     if (!title) {
       this.getTasks();
     }
 
     this.service.searchTask(title).subscribe((res) => {
-      console.log(res);
       this.listOfTasks = res;
     })
   }

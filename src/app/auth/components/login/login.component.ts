@@ -68,9 +68,7 @@ export class LoginComponent {
   }
 
   onSubmit() {
-    console.log(this.loginForm.value);
     this.authService.login(this.loginForm.value).subscribe((res) => {
-      console.log(res);
       if (res.userId != null) {
         const user = {
           id: res.userId,

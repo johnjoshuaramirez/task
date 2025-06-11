@@ -67,12 +67,10 @@ export class PostTaskComponent {
   getUsers() {
     this.adminService.getUsers().subscribe((res) => {
       this.listOfEmployees = res;
-      console.log(res);
     });
   }
 
   postTask() {
-    console.log(this.taskForm.value);
     this.adminService.postTask(this.taskForm.value).subscribe((res) => {
       if (res.id !== null) {
         this.snackbar.open('Task posted successfully', 'Close', {

@@ -16,8 +16,9 @@
 
 .task-list {
   display: flex;
+  column-gap: 1rem;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
   background-color: #f8f8f8;
   min-height: 37vh;
   padding: 20px;
@@ -30,6 +31,17 @@
 
     .task-details {
       padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+
+      .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+      }
 
       .task-name {
         font-size: 20px;
@@ -70,22 +82,35 @@
         justify-content: flex-end;
         margin-top: 10px;
 
-        .view-button {
-          margin-right: 10px;
-        }
-
         .update-button {
+          cursor: pointer;
+          border: none;
           margin-right: 10px;
           color: black;
+          background: none;
+
+          &:hover {
+            color: gray;
+          }
         }
 
         .view-button {
+          cursor: pointer;
+          border: none;
           margin-right: 10px;
+
+          &:hover {
+            color: gray;
+          }
         }
 
-        .delete-button{
-          // border: none;
+        .delete-button {
+          border: none;
           cursor: pointer;
+
+          &:hover {
+            color: red;
+          }
         }
       }
     }

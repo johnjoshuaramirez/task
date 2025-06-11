@@ -62,7 +62,6 @@ export class SignupComponent {
   }
 
   onSubmit() {
-    console.log(this.signupForm.value);
     const password = this.signupForm.get('password')?.value;
     const confirmPassword = this.signupForm.get('confirmPassword')?.value;
 
@@ -75,7 +74,6 @@ export class SignupComponent {
     }
 
     this.authService.signup(this.signupForm.value).subscribe((res) => {
-      console.log(res);
       if (res.id != null) {
         this.snackbar.open('Signup successful', 'Close', { duration: 5000 });
         this.router.navigateByUrl('/login');
