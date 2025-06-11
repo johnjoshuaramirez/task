@@ -32,7 +32,7 @@ Task is a centralized platform for creating, assigning, and managing tasks. It h
 - **Styled with SCSS**  
   Custom styles are written in SCSS to keep things organized and easy to maintain.
 
-- **Authentication with JWT**  
+- **Authentication & Authorization with JWT**  
   User login and protected routes are secured using JSON Web Tokens, helping keep user sessions safe.
 
 - **Reactive Forms**  
