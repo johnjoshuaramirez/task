@@ -38,5 +38,5 @@ Task is a centralized platform for creating, assigning, and managing tasks. It h
 - **Reactive Forms**  
   Forms like login and registration use Angular’s Reactive Forms for better validation and control.
 
-- **Login/Logout**  
-  Users can easily sign in or out, with access managed based on authentication status.
+- **Register/Login/Logout**  
+  Users can easily register, sign in or out with access managed based on authentication status.
