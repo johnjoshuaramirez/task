@@ -23,3 +23,20 @@ Task is a centralized platform for creating, assigning, and managing tasks. It h
 
 - **Search**  
   Easily find products using keyword search.
+
+### Specifications
+
+- **Built with Angular & Angular Material**  
+  The app is developed using Angular for a structured, component-based setup, with Angular Material providing a clean and responsive UI.
+
+- **Styled with SCSS**  
+  Custom styles are written in SCSS to keep things organized and easy to maintain.
+
+- **Authentication with JWT**  
+  User login and protected routes are secured using JSON Web Tokens, helping keep user sessions safe.
+
+- **Reactive Forms**  
+  Forms like login and registration use Angular’s Reactive Forms for better validation and control.
+
+- **Login/Logout**  
+  Users can easily sign in or out, with access managed based on authentication status.
