@@ -72,13 +72,14 @@ export class PostTaskComponent {
 
   postTask() {
     this.adminService.postTask(this.taskForm.value).subscribe((res) => {
+      console.log('Request Body: ', this.taskForm.value);
       if (res.id !== null) {
         this.snackbar.open('Task posted successfully', 'Close', {
           duration: 5000,
         });
-        this.router.navigateByUrl("/admin/dashboard");
+        this.router.navigateByUrl('/admin/dashboard');
       } else {
-        this.snackbar.open("Something went wrong", "ERROR", { duration: 5000})
+        this.snackbar.open('Something went wrong', 'ERROR', { duration: 5000 });
       }
     });
   }
