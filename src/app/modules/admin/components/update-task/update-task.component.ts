@@ -90,6 +90,8 @@ export class UpdateTaskComponent implements OnInit {
     this.adminService
       .updateTask(this.id, this.updateTaskForm.value)
       .subscribe((res) => {
+        console.log("Request Body: ", this.updateTaskForm.value);
+        console.log("Request Parameter: ", this.id);
         if (res.id != null) {
           this.snackbar.open('Task updated successfully', 'Close', {
             duration: 5000,
