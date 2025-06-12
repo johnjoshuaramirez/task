@@ -1,7 +1,6 @@
-Task (Client)
 You can check the application here: https://task-rszt.onrender.com
 
-The Task Application (Client) provides a responsive and user-friendly interface for managing task assignments. Built with Angular and styled using SCSS and Angular Material, the frontend ensures a seamless experience for both admin and employee users. Authentication is handled via JWT, enabling secure access and role-based routing across the app.
+The Task (UI) provides a responsive and user-friendly interface for managing task assignments. Built with Angular and styled using SCSS and Angular Material, the frontend ensures a seamless experience for both admin and employee users. Authentication is handled via JWT, enabling secure access and role-based routing across the app.
 
 🔑 Key Features:
 
