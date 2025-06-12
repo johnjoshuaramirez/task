@@ -1,52 +1,51 @@
-Live Site: https://task-rszt.onrender.com
+Task (Client)
+You can check the application here: https://task-rszt.onrender.com
 
-Task is a centralized platform for creating, assigning, and managing tasks. It helps users organize, prioritize, and track tasks, including features like deadlines, reminders, and progress tracking.
+The Task web application provides a responsive and user-friendly interface for managing task assignments within an organization. Built with Angular and styled using SCSS, the frontend ensures a seamless experience for both admin and employee users. Authentication is handled via JWT, enabling secure access and role-based routing across the app.
 
-### Admin Email & Password
+🔑 Key Features:
 
-Email: admin@test.com
+- Admin and Employee role-based dashboards
 
-Password: admin
+- Secure login, registration, and logout with JWT
 
+- Task creation, assignment, and tracking by Admins
 
-### Features
+- Employees can view, update status, and comment on assigned tasks
 
-- **User Registration & Authentication**  
-  Users can create accounts and securely log in or out of the system.
+- Task detail and list view with card-based UI
 
-- **Role-Based Dashboards**  
-  - **Admin Dashboard**: Manage products, assign tasks to employees, and monitor activity.  
-  - **Employee Dashboard**: View and manage assigned tasks.
+- Keyword search for tasks
 
-- **Task Management**  
-  - Admins can assign tasks to employees.  
-  - Employees can update task statuses and provide feedback.
+- Comment threads for task collaboration
 
-- **Comment System**  
-  Employees can add comments to tasks, enabling better communication and task tracking.
+🎨 Technologies:
 
-- **Task Display (List/Detail View)**  
-  Tasks are shown in a card-based layout for full information.
+- Angular (SPA framework)
 
-- **Search**  
-  Easily find products using keyword search.
+- Angular Material (UI components and layout)
 
-### Specifications
+- SCSS (modular and maintainable styling)
 
-- **Built with Angular & Angular Material**  
-  The app is developed using Angular for a structured, component-based setup, with Angular Material providing a clean and responsive UI.
+- RxJS (reactive programming for async data)
 
-- **Styled with SCSS**  
-  Custom styles are written in SCSS to keep things organized and easy to maintain.
+- JWT (for secure route guarding and user sessions)
 
-- **Authentication & Authorization with JWT**  
-  User login and protected routes are secured using JSON Web Tokens, helping keep user sessions safe.
+- TypeScript (strong typing and scalable codebase)
 
-- **Reactive Forms**  
-  Forms like login and registration use Angular’s Reactive Forms for better validation and control.
+✅ Design & Architecture:
 
-- **Register/Login/Logout**  
-  Users can easily register, sign in or out with access managed based on authentication status.
+- Component-Based Architecture
+Encapsulated UI and logic for maintainability and reusability.
 
-### Tools & Technologies
-[![Angular](https://img.shields.io/badge/Angular-%23DD0031.svg?logo=angular&logoColor=white)](#) [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff)](#) [![Sass](https://img.shields.io/badge/Sass-C69?logo=sass&logoColor=fff)](#) [![NPM](https://custom-icon-badges.demolab.com/badge/NPM-%23CB3837.svg?logo=npm&logoColor=white)](#) [![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=vsc&logoColor=white)](#)
+- Reactive Forms
+Used for login, registration, and task input with full validation support.
+
+- Route Guards
+Role-based access control implemented via Angular route guards.
+
+- Service Layer
+Centralized services handle API communication and state management.
+
+- Responsive Design
+Fully responsive UI using Angular Material’s grid and layout utilities.
