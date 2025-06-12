@@ -1,59 +1,52 @@
-# TaskAngular
+Live Site: https://task-rszt.onrender.com
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.5.
+Task is a centralized platform for creating, assigning, and managing tasks. It helps users organize, prioritize, and track tasks, including features like deadlines, reminders, and progress tracking.
 
-## Development server
+### Admin Email & Password
 
-To start a local development server, run:
+Email: admin@test.com
 
-```bash
-ng serve
-```
+Password: admin
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-## Code scaffolding
+### Features
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- **User Registration & Authentication**  
+  Users can create accounts and securely log in or out of the system.
 
-```bash
-ng generate component component-name
-```
+- **Role-Based Dashboards**  
+  - **Admin Dashboard**: Manage products, assign tasks to employees, and monitor activity.  
+  - **Employee Dashboard**: View and manage assigned tasks.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+- **Task Management**  
+  - Admins can assign tasks to employees.  
+  - Employees can update task statuses and provide feedback.
 
-```bash
-ng generate --help
-```
+- **Comment System**  
+  Employees can add comments to tasks, enabling better communication and task tracking.
 
-## Building
+- **Task Display (List/Detail View)**  
+  Tasks are shown in a card-based layout for full information.
 
-To build the project run:
+- **Search**  
+  Easily find products using keyword search.
 
-```bash
-ng build
-```
+### Specifications
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+- **Built with Angular & Angular Material**  
+  The app is developed using Angular for a structured, component-based setup, with Angular Material providing a clean and responsive UI.
 
-## Running unit tests
+- **Styled with SCSS**  
+  Custom styles are written in SCSS to keep things organized and easy to maintain.
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+- **Authentication & Authorization with JWT**  
+  User login and protected routes are secured using JSON Web Tokens, helping keep user sessions safe.
 
-```bash
-ng test
-```
+- **Reactive Forms**  
+  Forms like login and registration use Angular’s Reactive Forms for better validation and control.
 
-## Running end-to-end tests
+- **Register/Login/Logout**  
+  Users can easily register, sign in or out with access managed based on authentication status.
 
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+### Tools & Technologies
+[![Angular](https://img.shields.io/badge/Angular-%23DD0031.svg?logo=angular&logoColor=white)](#) [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff)](#) [![Sass](https://img.shields.io/badge/Sass-C69?logo=sass&logoColor=fff)](#) [![NPM](https://custom-icon-badges.demolab.com/badge/NPM-%23CB3837.svg?logo=npm&logoColor=white)](#) [![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=vsc&logoColor=white)](#)
