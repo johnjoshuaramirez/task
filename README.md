@@ -4,9 +4,9 @@ Task is a centralized platform for creating, assigning, and managing tasks. It h
 
 ### Admin Email & Password
 
-email: admin@test.com
+Email: admin@test.com
 
-password: admin
+Password: admin
 
 
 ### Features
